@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"name": "Aulas",
+			"path": "."
+		},
+		{
+			"name": "Exercícios",
+			"path": "../Exercícios"
+		},
+		{
+			"name": "Projetos",
+			"path": "../Projetos"
+		},
+		{
+			"name": "ex01",
+			"path": "../ex01"
+		},
+		{
+			"name": "ex02",
+			"path": "../ex02"
+		},
+		{
+			"name": "ex3",
+			"path": "../ex3"
+		},
+		{
+			"name": "ex04",
+			"path": "../ex04"
+		},
+		{
+			"name": "ex01Avancado",
+			"path": "../ex01Avancado"
+		},
+		{
+			"name": "ex02Avancado",
+			"path": "../ex02Avancado"
+		},
+		{
+			"name": "ex3Avancado",
+			"path": "../ex3Avancado"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ex02Avancado"
+	}
+}

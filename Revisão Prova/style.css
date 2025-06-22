@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    text-align: center;
+  }
+  
+  .topo-imagens img {
+    width: 32%;
+    height: auto;
+  }
+  
+  header h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid #c0d9af;
+  }
+  
+  .menu {
+    float: left;
+    width: 15%;
+    padding: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .conteudo {
+    float: left;
+    width: 55%;
+    padding: 10px;
+  }
+  
+  .conteudo img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .autor {
+    text-align: right;
+    font-size: small;
+    font-weight: bold;
+  }
+  
+  .noticias {
+    float: right;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .noticia h3 {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .noticia .data {
+    color: lightgreen;
+    font-size: small;
+  }
+  
+  .noticia a {
+    color: red;
+    font-size: small;
+    text-decoration: none;
+  }
+  
+  .rodape {
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #c0d9af;
+  }
+  

@@ -1,0 +1,23 @@
+body{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+header{
+    background-color: #e5c5b0;
+    border-radius: 0 0 0 25px ;
+    padding: 5px 15px 20px ;
+    width: 270px;
+    margin: 0 0 10px 30px;
+    float: right;
+    text-align: center;
+    
+}
+header a{
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    color: #bd4e15;
+    border: solid thin;
+}

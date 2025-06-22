@@ -1,0 +1,27 @@
+img{
+    float: left;
+}
+  
+h1{
+    border-bottom: solid thin #909;
+    color: #909;
+    text-align: right;
+}
+fieldset{
+    border: solid #FCC;
+}
+input, textarea{
+    border-style: none;
+    background-color: #FCC;
+    width: 500px;
+    margin: 10px 0;
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
+/* seletor de atributos */
+input[type="submit"]{
+    width: 100px;
+    padding: 3px;
+}
