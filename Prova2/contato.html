@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Tornearia O.S</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tornearia O.S</h1>
+        <p>Serviços de Torno em Geral</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre a Empresa</a></li>
+                <li><a href="servicos.html">Nossos Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-content">
+            <div class="contact-info">
+                <h2>Informações de Contato</h2>
+                <p>Estamos prontos para atender você! Entre em contato conosco para solicitar um orçamento, tirar dúvidas ou discutir seu projeto.</p>
+                
+                <h3>Endereço:</h3>
+                <p>R. Benedito Galdino de Freitas, 133</p>
+                <p>Santo Antônio</p>
+                <p>CEP: 83025-770</p>
+
+                <h3>Telefone:</h3>
+                <p>Se preferir, clique para nos chamar no WhatsApp:</p>
+                <p><a href="https://wa.me/5541998249747" target="_blank">(41) 99824-9747</a></p>
+                
+                
+                <h3>Horário de Atendimento:</h3>
+                <p>Segunda a Sexta-feira: 08:00h às 18:00h</p>
+                <p>Sábado: 08:00h às 12:00h</p>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Envie uma Mensagem</h2>
+                <form id="contactForm">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <span class="error-message" id="nomeError"></span>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                        <span class="error-message" id="assuntoError"></span>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                        <span class="error-message" id="mensagemError"></span>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                    <p id="formFeedback" class="success-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tornearia O.S. Todos os direitos reservados.</p>
+        <p>R. Benedito Galdino de Freitas, 133 - Santo Antônio - Telefone: (41) 99824-9747</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
